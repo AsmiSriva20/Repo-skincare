@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
-
+import avocado from "/assets/model-avocado.png";
+import plum from "/assets/plum.png";  
 export default function Hero() {
   const textRef = useRef(null);
   const imgRef = useRef(null);
@@ -42,7 +43,7 @@ export default function Hero() {
         {/* Right: Plum Image */}
         <div className="flex-1 flex flex-col items-end justify-center">
           <img
-            src="/assets/plum.png"
+            src={plum}
             alt="Plum"
             className="w-24 h-24 object-contain z-20 rounded-[16px]"
             style={{ minWidth: "96px" }}
@@ -65,7 +66,7 @@ export default function Hero() {
         {/* Model Image */}
         <div ref={imgRef} className="relative flex-1 flex justify-center items-center w-full z-20 ml-20 opacity-100">
   <img
-    src="/assets/model-avocado.png"
+    src={avocado}
     alt="Model"
     className="rounded-xl w-full max-w-md z-20 -ml-20"
     style={{ maxHeight: "900px", objectFit: "cover" }}
@@ -80,7 +81,7 @@ export default function Hero() {
             <span className="relative inline-flex items-center justify-center w-11 h-11 rounded-full shrink-0">
               <span className="absolute inset-0 rounded-full border-2 border-dotted border-[#2D3B36] z-0"></span>
               <img
-                src="/assets/plum.png"
+                src={plum}
                 alt="Plum"
                 className="w-9 h-9 rounded-full object-contain border border-[#DDE9CE] z-10 bg-white"
               />

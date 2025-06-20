@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import cleanser from "/assets/cleanser3.jpg"; // Adjust the path as necessary
 
 const faqData = [
   {
@@ -37,7 +38,7 @@ export default function FAQ() {
         {/* Left: Image with badge */}
         <div className="relative flex justify-center items-center">
           <img
-            src="/assets/cleanser3.jpg"
+            src={cleanser}
             alt="FAQ Product"
             className="rounded-2xl w-full max-w-md object-cover shadow-lg"
             style={{ aspectRatio: '1/1.1' }}

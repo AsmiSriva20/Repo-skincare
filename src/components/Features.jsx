@@ -1,4 +1,5 @@
 import React from "react";
+import model from "/assets/new-model.png"; // Adjust the path as necessary
 
 export default function Features() {
   return (
@@ -74,7 +75,7 @@ export default function Features() {
        <div className="relative w-full max-w-md md:max-w-lg">
   {/* Image */}
   <img
-    src="/assets/new-model.png"
+    src={model}
     alt="Model"
     className="rounded-2xl w-full h-auto object-cover shadow-lg"
     style={{ aspectRatio: '1/1.1' }}

@@ -1,4 +1,5 @@
 import React from "react";
+import model from "/assets/model-3.png"; // Adjust the path as necessary
 
 export default function New() {
   return (
@@ -6,7 +7,7 @@ export default function New() {
       <div className="relative w-full h-full max-w-7xl rounded-2xl overflow-hidden shadow-lg">
         {/* Fullscreen Image */}
         <img
-          src="/assets/model-3.png"
+          src={model}
           alt="Feel Beautiful"
           className="w-full h-screen object-cover rounded-2xl"
         />
