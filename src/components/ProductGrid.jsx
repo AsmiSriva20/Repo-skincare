@@ -1,21 +1,25 @@
 import React from "react";
+import cleanser1 from "/assets/cleanser1.jpg";
+import cleanser2 from "/assets/cleanser2.jpg";
+import cleanser3 from "/assets/cleanser3.jpg";
+
 
 
 const products = [
   {
     name: "ALYA SKIN CLEANSER.",
     price: "FROM $29.99",
-    image: "/assets/cleanser1.jpg",
+    image: cleanser1,
   },
   {
     name: "RITUAL OF SAKURA.",
     price: "FROM $27.99",
-    image: "/assets/cleanser2.jpg",
+    image: cleanser2,
   },
   {
     name: "THE BODY LOTION.",
     price: "FROM $18.99",
-    image: "/assets/cleanser3.jpg",
+    image: cleanser3,
   },
 ];
 
